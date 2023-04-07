@@ -1,0 +1,58 @@
+{
+  "name": "discord-player",
+  "version": "3.4.0",
+  "description": "Complete framework to facilitate music commands using discord.js v12",
+  "main": "index.js",
+  "types": "typings/index.d.ts",
+  "funding": "https://github.com/Androz2091/discord-player?sponsor=1",
+  "scripts": {
+    "test": "cd test && node index.js",
+    "generate-docs": "node_modules/.bin/jsdoc --configure .jsdoc.json --verbose"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Androz2091/discord-player.git"
+  },
+  "keywords": [
+    "music",
+    "player",
+    "bot",
+    "framework",
+    "discord",
+    "volume",
+    "queue",
+    "youtube"
+  ],
+  "author": "Androz2091",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Androz2091/discord-player/issues"
+  },
+  "homepage": "https://github.com/Androz2091/discord-player#readme",
+  "dependencies": {
+    "chalk": "^4.1.0",
+    "discord-ytdl-core": "^5.0.1",
+    "jsdom": "^16.4.0",
+    "merge-options": "^3.0.4",
+    "node-fetch": "^2.6.0",
+    "parse-ms": "^2.1.0",
+    "reverbnation-scraper": "^2.0.0",
+    "soundcloud-scraper": "^4.0.3",
+    "spotify-url-info": "^2.2.0",
+    "youtube-sr": "^4.0.2",
+    "ytdl-core": "^4.5.0"
+  },
+  "devDependencies": {
+    "@discordjs/opus": "^0.4.0",
+    "@types/node": "14.14.31",
+    "discord.js": "^12.2.0",
+    "eslint": "^7.20.0",
+    "eslint-config-standard": "^16.0.2",
+    "eslint-plugin-import": "^2.20.2",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^4.3.1",
+    "eslint-plugin-standard": "^5.0.0",
+    "jsdoc": "^3.6.3",
+    "jsdoc-skyceil": "Androz2091/jsdoc-skyceil"
+  }
+}
